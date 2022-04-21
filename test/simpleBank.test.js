@@ -45,8 +45,6 @@ contract("SimpleBank", function (accounts) {
     await instance.enroll({ from: alice });
 
     const aliceEnrolled = await instance.enrolled(alice, { from: alice });
-    console.info("here");
-    console.info(aliceEnrolled);
     assert.equal(
       aliceEnrolled,
       true,

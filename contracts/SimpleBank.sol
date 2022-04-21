@@ -11,8 +11,6 @@ contract SimpleBank {
     /* State variables
      */
 
-    //  uint count_client;
-
     
     
     // Fill in the visibility keyword. 
